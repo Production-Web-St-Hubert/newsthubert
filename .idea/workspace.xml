@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="18ed6aaa-2e74-446a-b4dc-bd3adddb71d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_header-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header-page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-hero.scss" afterDir="false" />
@@ -12,6 +13,8 @@
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/settings/_dimensions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_dimensions.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -366,9 +369,15 @@
       <created>1602373879611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1602373879611</updated>
       <workItem from="1602373880668" duration="1412000" />
       <workItem from="1602427006118" duration="19137000" />
+=======
+      <updated>1602440160058</updated>
+      <workItem from="1602440161129" duration="1337000" />
+      <workItem from="1602442822826" duration="3993000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
