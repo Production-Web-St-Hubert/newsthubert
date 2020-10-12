@@ -1,107 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>produits d’épiceri</title>
+  <title>St-Hubert</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <script src=js/script.js"></script>
-
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet">
 
 
-
-
 </head>
 <body>
-  <nav>
-    <div class="menu"><a href="index.html"><img src="/images/desktop/logoettexte.png" alt="Logo St-Hubert" />
-    </a>
-      <label for="show-menu" class="show-menu"><img class="material-icons" src=""
-                                                    alt="menu">
-        </i></label>
-    </div>
-    <input type="checkbox" id="show-menu" class="toggle-menu">
-    <ul class="menu">
-      <li class=""><a href="index.html"><h3>À propos allo mathieu Guérin test André</h3></a></li>
-      <li class=""><a href=""><h3>Restaurants</h3></a></li>
-      <li class=""><a href="template-pageproduit.html"><h3>Produits d'épicerie</h3></a></li>
-      <li class=""><a href=""><h3>Responsabilité sociale</h3></a></li>
-      <li class=""><a href=""><h3>Menu</h3></a></li>
-      <li class=""><a href="">
+<header class="header-page">
+  <nav class="sticky">
+
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html"><img src="/images/desktop/logoettexte.png" alt="Logo St-Hubert"/>
+        </a>
+        <label for="show-menu" class="show-menu"><img class="material-icons" src=""
+                                                      alt="menu">
+          </i></label>
+
+        <input type="checkbox" id="show-menu" class="toggle-menu show-menu">
+      </div>
+      <ul class="">
+        <li class=""><a href="index.html"><h4>À propos</h4></a></li>
+        <li class=""><a href=""><h4>Restaurants</h4></a></li>
+        <li class=""><a href=""><h4>Produits d'épicerie</h4></a></li>
+        <li class=""><a href=""><h4>Responsabilité sociale</h4></a></li>
+        <li class=""><a href=""><h4>Menu</h4></a></li>
+      </ul>
+
+      <div class="menu-last"><a href="">
         <button>Commander</button>
-      </a></li>
-      <li class=""><a href=""><h3>FR</h3></a></li>
-    </ul>
+      </a>
+        <a href=""><h4>FR</h4></a>
+      </div>
+    </div>
 
   </nav>
 </header>
+<div class="hero">
+  <!--<img src="/images/desktop/hero.png" alt="Hero"/>-->
+  <div class="info-hero">
+    <h1>Les produits d’épicerie</h1>
+  </div>
+
+</div>
 
 
-<h1>Les produits d’épicerie</h1>
-
-<p>Toute la famille raffolera des repas savoureux, simples et rapides à préparer
+<p class="texte-produit">Toute la famille raffolera des repas savoureux, simples et rapides à préparer
   que vous proposent les produits St-Hubert, offerts en épicerie. Des marinades aux pâtés,
   en passant par les soupes, salades et desserts, nos plats préparés sont prêts à savourer en quelques instants.
   Ajoutez aussi une touche savoureuse à vos plats faits maison avec les sauces, marinades et épices St-Hubert.</p>
 
+<hr>
 
-<p>En ces temps exceptionnels,
+<p class="texte-covid">En ces temps exceptionnels,
   St-Hubert vous permet de faire une pierre,
   deux coups dans la planification de vos repas en famille!
   Lors de votre prochaine commande en ligne d’un repas St-Hubert
   au restaurant (livraison ou à emporter), profitez-en pour ajouter à votre panier 1 ou 2 produits surgelés St-Hubert.</p>
 
-<button>Division épicerie</button>
-<button>Recettes</button>
-<button>FAQ</button>
+<div class="bouton-rouge"><button class="bouton">Division épicerie</button>
+<button class="bouton">Recettes</button>
+<button class="bouton">FAQ</button></div>
 
 
-<section>
+<section class="manger">
 
-  <h2>Prêts-à-manger</h2>
+  <div class="info-hero">
+  <h2 class="titre-manger">Prêts-à-manger</h2>
+  </div>
+
+</section>
+
 
   <article>
 
+    <img class="image" src="images/desktop/quiche.png" alt="quiche">
     <h3>Pâtés & quiches</h3>
 
   </article>
 
   <article>
 
-    <h3>Poulet </h3>
+    <img class="image" src="images/desktop/ailedepoulet.png" alt="ailedepoulet">
+    <h3>Poulet</h3>
 
   </article>
 
   <article>
 
+    <img class="image" src="images/desktop/coteleve.png" alt="coteleve">
     <h3>Côtes levées</h3>
 
   </article>
 
   <article>
-
+    <img class="image" src="images/desktop/fromage.png" alt="fromage">
     <h3>Amuses-gueules  </h3>
 
   </article>
 
   <article>
-
+    <img class="image" src="images/desktop/soupe.png" alt="soupe">
     <h3>Soupe </h3>
 
   </article>
 
   <article>
-
+    <img class="image" src="images/desktop/tartinade.png" alt="tartinade">
     <h3>Salades </h3>
 
   </article>
 
-</section>
+
 
 
   <section>

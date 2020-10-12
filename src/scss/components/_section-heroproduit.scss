@@ -1,0 +1,115 @@
+.hero {
+  max-width: 100%;
+
+  background-image: url("/images/desktop/heroproduit.png");
+  background-size:cover;
+
+  .info-hero {
+
+    max-width: 100%;
+
+    //border:$jaune solid 5px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    //text-align:center;
+    //
+    ////margin:auto;
+    height: 1055px;
+    //width:100%;
+    //
+    //
+    //display: flex;
+    //flex-direction:column;
+    ////align-items: center;
+    //justify-content: center;
+
+    h1 {
+      //justify-content: center;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.texte-produit{
+
+   font-size: 30px;
+  padding: 60px;
+ }
+
+
+hr{
+
+  width: 1000px;
+  height: 10px;
+  margin-bottom: 100px;
+
+}
+
+
+.texte-covid{
+
+
+  background-image: url("/images/desktop/imagesectioncovid.png");
+  height: 330px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+
+
+}
+
+
+.bouton{
+
+  padding: 10px;
+  font-size: 48px;
+  width: 545px;
+  margin-top: 60px;
+
+}
+
+
+.bouton-rouge{
+
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+
+.manger{
+
+  background-image: url("/images/desktop/imagepretamanger.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.titre-manger{
+
+  font-size: $fz-h1;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+.image{
+
+  width: 400px;
+  height: 400px;
+
+}
