@@ -1,0 +1,101 @@
+.heropage {
+  max-width: 100%;
+
+  background-image: url("/images/desktop/nosrestaurants.png");
+  background-size: cover;
+
+  .info-heropage {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1055px;
+
+    h1 {
+
+      text-align: center;
+      margin-bottom: 0;
+    }
+    h2 {
+      text-align: right;
+      justify-content: flex-start;
+
+    }
+  }
+}
+
+.page {
+  //max-width: 100%;
+  width: 100%;
+  background-image: url("/images/desktop/covidpouletroti.png");
+  background-size: cover;
+  //height: 1405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .page-wrap {
+    width: $max-width;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .info-page {
+    width: $max-width;
+    padding: 75px;
+
+    //border: $jaune solid 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: $fz-p;
+    color: $blanc;
+    font-weight: $fw-bold;
+
+  }
+
+  .cartes-page {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
+
+    //
+
+    .unecarte-page {
+      //height: 200px;
+      flex-wrap: wrap;
+      width: 45%;
+      justify-content: space-between;
+    }
+    button {
+      height: 115px;
+      width: 100%;
+      background-color: $gris;
+      color: $white;
+      border: $jaune solid 5px;
+      font-size: $fz-h2;
+
+      margin: 50px 0;
+    }
+
+  }
+
+}
+
+
+
+
+
+
