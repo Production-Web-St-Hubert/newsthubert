@@ -4,14 +4,15 @@
     <list default="true" id="18ed6aaa-2e74-446a-b4dc-bd3adddb71d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/desktop/commande.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/desktop/commande.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/desktop/promo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/desktop/promo.png" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_formulaire-commentaires.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-cartes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-livraison.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/components/_section-covid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_section-covid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/_fonts.scss" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -341,9 +342,15 @@
       <created>1602373879611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< Updated upstream
       <updated>1602373879611</updated>
       <workItem from="1602373880668" duration="1412000" />
       <workItem from="1602427006118" duration="19137000" />
+=======
+      <updated>1602440160058</updated>
+      <workItem from="1602440161129" duration="1337000" />
+      <workItem from="1602442822826" duration="3993000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
