@@ -1,3 +1,5 @@
+
+
 .info-hero-carrieres
 {
   max-width: 100%;
@@ -6,7 +8,7 @@
   background-size: cover;
 }
 
-
+// SECTIONS TEXTE ------------------------------------
 .section-texte
 {
   margin: 100px auto;
@@ -25,6 +27,8 @@
   font-size: $fz-p;
 }
 
+
+// BOUTONS ------------------------------------
 .flex-boutons
 {
   display: flex;
@@ -32,11 +36,9 @@
   justify-content: space-between;
 }
 
-
 .boutons
 {
   margin: 100px 0;
-
 
 }
 
@@ -47,4 +49,46 @@
 
   padding: 20px 50px;
   font-size: $fz-h4;
+
+  color: $white;
+}
+
+// LES CARTES ------------------------------------
+
+.section-titre
+{
+  text-align: center;
+}
+
+.cartes-carrieres
+{
+
+}
+
+.carte-emploi
+{
+  display: flex;
+}
+
+.carte-texte
+{
+  justify-content: center;
+}
+
+// DISTINGUE ------------------------------------
+.distingue
+{
+
+}
+
+// SAVOIR ------------------------------------
+.section-savoir
+{
+  display: flex;
+  justify-content: center;
+}
+
+.savoir-bloc
+{
+  margin: 0 30px;
 }
