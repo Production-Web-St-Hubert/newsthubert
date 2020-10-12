@@ -1,3 +1,5 @@
+
+
 .info-hero-carrieres
 {
   max-width: 100%;
@@ -6,7 +8,7 @@
   background-size: cover;
 }
 
-
+// SECTIONS TEXTE ------------------------------------
 .section-texte
 {
   margin: 100px auto;
@@ -22,9 +24,12 @@
   text-align: center;
   line-height: 2;
 
+  font-family: $ff-cartep;
   font-size: $fz-p;
 }
 
+
+// BOUTONS ------------------------------------
 .flex-boutons
 {
   display: flex;
@@ -32,11 +37,9 @@
   justify-content: space-between;
 }
 
-
 .boutons
 {
   margin: 100px 0;
-
 
 }
 
@@ -47,4 +50,140 @@
 
   padding: 20px 50px;
   font-size: $fz-h4;
+
+  color: $white;
+}
+
+// LES CARTES ------------------------------------
+
+.section-titre
+{
+  text-align: center;
+}
+
+.cartes-carrieres
+{
+  font-family: $ff-cartep;
+  font-size: 1rem;
+
+  padding: 50px;
+}
+
+.carte-emploi
+{
+  display: flex;
+  justify-content: center;
+}
+
+.carte-texte
+{
+  justify-content: center;
+}
+
+.img-carte
+{
+  background-size: cover;
+  margin-top: auto;
+}
+
+.image-emploi
+{
+
+
+}
+
+.image-candidature
+{
+
+
+}
+
+.image-abonnement
+{
+
+
+}
+
+.image-faq
+{
+
+
+}
+
+// DISTINGUE ------------------------------------
+.distingue
+{
+
+}
+
+// SAVOIR ------------------------------------
+.savoir
+{
+  margin: 200px 0;
+}
+
+.section-savoir
+{
+  display: flex;
+  justify-content: center;
+}
+
+.savoir-bloc
+{
+  text-align: center;
+
+  margin: 0 30px;
+  width: 500px;
+
+  font-size: $fz-h5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.savoir-bloc p
+{
+  font-family: $ff-cartep;
+  font-size: $fz-p;
+}
+
+// IMG ---------
+.img-savoir
+{
+  width: 100px;
+  height: 100px;
+}
+
+.img-stat
+{
+  background: url("/images/desktop/stats.png");
+  background-size: cover;
+}
+
+.img-perso
+{
+  background: url("/images/desktop/personne.png");
+  background-size: cover;
+}
+
+.img-pouce
+{
+  background: url("/images/desktop/pouce.png");
+  background-size: cover;
+}
+
+
+// VALEUR ------------------------------------
+
+.section-valeur-histoire
+{
+
+}
+
+.ul-valeurs
+{
+  list-style: none;
+  line-height: 2.5rem;
 }
