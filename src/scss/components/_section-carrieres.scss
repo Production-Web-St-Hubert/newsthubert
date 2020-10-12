@@ -24,6 +24,7 @@
   text-align: center;
   line-height: 2;
 
+  font-family: $ff-cartep;
   font-size: $fz-p;
 }
 
@@ -58,6 +59,7 @@
 .section-titre
 {
   text-align: center;
+
 }
 
 .cartes-carrieres
@@ -82,6 +84,11 @@
 }
 
 // SAVOIR ------------------------------------
+.savoir
+{
+  margin: 200px 0;
+}
+
 .section-savoir
 {
   display: flex;
@@ -93,12 +100,43 @@
   text-align: center;
 
   margin: 0 30px;
-  width: 300px;
+  width: 500px;
 
   font-size: $fz-h5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .savoir-bloc p
 {
+  font-family: $ff-cartep;
+  font-size: $fz-p;
+}
 
+// IMG ---------
+.img-savoir
+{
+  width: 100px;
+  height: 100px;
+}
+
+.img-stat
+{
+  background: url("/images/desktop/stats.png");
+  background-size: cover;
+}
+
+.img-perso
+{
+  background: url("/images/desktop/personne.png");
+  background-size: cover;
+}
+
+.img-pouce
+{
+  background: url("/images/desktop/pouce.png");
+  background-size: cover;
 }
