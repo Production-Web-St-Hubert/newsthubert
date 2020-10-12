@@ -1,0 +1,98 @@
+footer {
+  background-color: $noir;
+a:hover{
+  text-decoration:none;
+}
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding-top: 50px;
+  padding-bottom:50px;
+
+  h6 {
+    margin: 20px 0 0 0;
+    font-weight: $fw-medium;
+
+  }
+
+  .footer-menu {
+    flex-direction: column;
+    justify-content: space-between;
+
+    list-style: none;
+    li {
+      margin-top: 20px;
+    }
+  }
+  .reseaux-sociaux {
+    //display:flex;
+
+    .reseaux-sociaux-icones {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      img {
+        margin: 30px;
+      }
+
+      .facebook:hover{
+        content: url('/images/desktop/facebook-hover.png');
+      }
+      .twitter:hover{
+        content: url('/images/desktop/twitter-hover.png');
+      }
+      .instagram:hover{
+        content: url('/images/desktop/instagram-hover.png');
+      }
+      .youtube:hover{
+        content: url('/images/desktop/youtube-hover.png');
+      }
+
+    }
+  }
+  .appstore {
+    h6 {
+      margin: 0;
+
+    }
+    img {
+      margin-top: 30px;
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+}
+.fin{
+  height:50px;
+
+
+    .footer-info{
+      background-color: $gris;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+
+      h4{
+        font-family: $ff-cartep;
+        margin:25px;
+        opacity: 0.5;
+        font-weight: $fw-regular;
+
+      }
+
+    }
+  }

@@ -1,0 +1,56 @@
+.infolettre-wrap {
+  width: $med-width;
+}
+
+.infolettre {
+  margin: 75px auto;
+  padding: 50px;
+  background-color: $jaune;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  //align-items: center;
+  //align-content: center;
+
+  .infolettre-logo {
+    img {
+      //margin: 35px;
+    }
+  }
+
+  .infolettre-texte {
+    //margin: 35px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      margin: 0;
+    }
+    p {
+      font-size: $fz-p;
+      color: $gris;
+      margin:0;
+    }
+
+    .infolettre-info {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+      margin: 0;
+
+
+
+      button {
+        height: 50px;
+      }
+
+    }
+
+  }
+}

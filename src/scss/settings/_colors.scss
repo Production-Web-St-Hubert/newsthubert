@@ -40,12 +40,12 @@ $color-link-focus: $color-link;
 
 
 // Couleurs pour formulaire
-$base-input-placeholder-color:                  #999 ;
+$base-input-placeholder-color:                  $blanc;
 $base-input-color:                              #000 ;
-$base-input-background-color:                   #fff ;
-$base-input-background-focus-color:             #fff ;
+$base-input-background-color:                   $gris;
+$base-input-background-focus-color:             $blanc;
 $base-input-border-color:                       #ccc ;
-$base-input-border-focus-color:                 #000 ;
+$base-input-border-focus-color:                 $jaune;
 $base-select-box-height: 36px;
 
 
