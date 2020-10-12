@@ -5,6 +5,8 @@
 $max-width: 1720px;
 $min-width: 600px;
 
+$med-width: 1200px;
+
 // MEDIA QUERIES
 $vw-thin: 320px;
 $vw-small: 640px;
@@ -13,6 +15,6 @@ $vw-large: 1024px;
 $vw-huge: $max-width;
 
 //Dimensions pour formulaire
-$base-input-height:36px;
-$base-input-border-size:1px;
-$base-input-border-radius:10px;
+$base-input-height:50px;
+$base-input-border-size:0;
+$base-input-border-radius:0;

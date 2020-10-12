@@ -22,7 +22,7 @@ textarea {
 [type="date"],
 [type="search"] {
   height: $base-input-height;
-  padding: 8px;
+  //padding: 8px;
   background-color: $base-input-background-color;
   border: $base-input-border-size solid $base-input-border-color;
   border-radius: $base-input-border-radius;
@@ -33,6 +33,10 @@ textarea {
     border-color: $base-input-border-focus-color;
     outline: 0;
   }
+  text-align:center;
+  vertical-align: center;
+  font-size: $fz-p;
+  font-weight: $fw-medium;
 }
 
 // Textarea
@@ -53,7 +57,7 @@ textarea {
 select {
   text-transform: none;
   height: $base-input-height;
-  padding: 0 8px;
+  //padding: 0 8px;
   background-color: $base-input-background-color;
   border: $base-input-border-size solid $base-input-border-color;
   border-radius: $base-input-border-radius;
@@ -75,8 +79,18 @@ button {
   color: $blanc;
   font-weight: $fw-bold;
 
+
+
   text-align: center;
   vertical-align: center;
+
+  font-family: $ff-normal;
+  font-size: $fz-h4;
+}
+
+button:hover{
+  background-color: $jaune;
+  color:$noir;
 }
 
 
