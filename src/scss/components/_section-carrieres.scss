@@ -1,0 +1,48 @@
+.info-hero
+{
+  background: url("/images/desktop/cartecarrieres.png");
+  background-size: cover;
+}
+
+
+.section-texte
+{
+  margin: 100px auto;
+  width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+
+.textes-dessous-hero
+{
+  text-align: center;
+  line-height: 2;
+
+  font-size: $fz-p;
+}
+
+.flex-boutons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.boutons
+{
+  margin: 100px 0;
+
+
+}
+
+.boutons a
+{
+  background: $gris;
+  border: $jaune 2px solid;
+
+  padding: 20px 50px;
+  font-size: $fz-h4;
+}
