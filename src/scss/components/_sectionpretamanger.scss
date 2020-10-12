@@ -1,0 +1,44 @@
+
+.manger{
+
+  background-image: url("/images/desktop/imagepretamanger.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.manger-cuisine{
+
+  background-image: url("/images/desktop/cuisinier.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.titre-manger{
+
+  font-size: $fz-h1;
+  text-align: center;
+  justify-content: center;
+
+
+}
+
+
+
+
+.image{
+
+  width: 400px;
+  height: 400px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+
+
