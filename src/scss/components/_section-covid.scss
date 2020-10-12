@@ -1,57 +1,71 @@
 .covid {
-  max-width: 100%;
+  //max-width: 100%;
+  width:100%;
   background-image: url("/images/desktop/covidpouletroti.png");
   background-size: cover;
-height:1405px;
-  display:flex;
-  flex-direction:column;
-  justify-content: center;
-  align-items: center;
-
-
-.covid-wrap{
-  max-width: $max-width;
-  height:100%;
+  height: 1405px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-}
-
-.info-covid{
-  max-width: 100%;
-  padding:20px;
-
-  border:$jaune solid 5px;
-
-  display:flex;
-  flex-direction:column;
   justify-content: center;
   align-items: center;
-  text-align:center;
 
-  font-size: $fz-p;
-  color: $jaune;
-  font-weight: $fw-bold;
+  .covid-wrap {
+    width: $max-width;
 
-  button{
-    height:90px;
-    font-size: $fz-h2;
-    //font-weight: $fw-bold;
-    //padding:20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
 
-}
+  .info-covid {
+    width: $max-width;
+    padding: 20px;
 
-  .carte-covid{
+    border: $jaune solid 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-size: $fz-p;
+    color: $jaune;
+    font-weight: $fw-bold;
+
+    button {
+      height: 90px;
+      font-size: $fz-h2;
+      //font-weight: $fw-bold;
+      //padding:20px;
+    }
+
+  }
+
+  .cartes-covid {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-  }
 
-.promo-commande{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+    justify-content: space-between;
+    //align-content: space-between;
+
+    //width:100%;
+
+    .unecarte-covid {
+      display: flex;
+      flex-direction: column;
+      //width: 750px;
+    }
+    button {
+      height: 115px;
+      width: 100%;
+      background-color: $gris;
+      color: $white;
+      border: $jaune solid 5px;
+      font-size: $fz-h2;
+    }
+
+  }
 
 }
