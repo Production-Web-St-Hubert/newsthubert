@@ -1,0 +1,71 @@
+.lescartes {
+  width: $max-width;
+  margin: 50px auto;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.unecarte {
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  height: 950px;
+
+  border-top: $jaune solid 25px;
+  border-bottom: $jaune solid 25px;
+  width: 30%;
+
+  align-items: center;
+
+  background-color: $noir;
+
+
+  a {
+    text-decoration: none;
+  }
+  .carte-titre {
+    position: relative;
+    bottom: 130px;
+
+    h2 {
+      margin:0;
+      padding-top:30px;
+      height: 126px;
+      text-align: center;
+      color: $white;
+      background-color: rgba(26, 26, 26, .6);
+
+    }
+
+  }
+
+  .carte-texte {
+    height: 450px;
+    position: relative;
+    bottom: 130px;
+    padding: 20px 30px;
+
+    p {
+      font-size: $fz-p;
+      font-family: $ff-cartep;
+      font-weight: $fw-regular;
+      color: $white;
+    }
+  }
+}
+.unecarte:hover{
+  box-shadow: 5px 5px 5px 0px rgba(26,26,26,0.75);
+  img{
+    filter: saturate(0);
+
+  }
+  h2{
+     color: $noir;
+     background-color: rgba(254, 203, 63, 1);
+   }
+
+}
+
