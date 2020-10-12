@@ -1,69 +1,96 @@
 nav {
-  height: 150px;
+
   background-image: linear-gradient(to top, rgba(26,26,26,0), rgba(26,26,26,1),rgba(26,26,26,1),rgba(26,26,26,1));
-  //background-color: $noir;
-  .sticky {
-    position: sticky;
-    top: 0;
 
-  }
+  width: 100%;
+  height: 150px;
 
-  .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+
+
+
+  .logo
+  {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 
     position: relative;
     top: 25px;
+
+    padding-right: 60px;
   }
-  .show-menu {
+
+  .show-menu
+  {
     display: none;
   }
-  .menu {
-    margin-right: 95px;
-    margin-left: 95px;
-    //padding-top: 15px;
+
+  .menu
+  {
+    margin:0 auto;
+    padding-top: 15px;
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  ul {
+
+  ul
+  {
     margin-top: 40px;
     padding: 0;
-    width: 845px;
+
 
     display: flex;
     list-style: none;
     justify-content: space-between;
 
-    li {
+   nav li
+   {
       justify-content: space-between;
-    }
+   }
   }
 
-  div.menu-last {
-    margin-top: 40px;
-    width: 300px;
+  div.menu-last
+  {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
     align-content: center;
-
   }
-  img {
+
+  .menu-last a
+  {
+    padding: 0 20px;
+  }
+
+  img
+  {
     height: 194px;
     width: 363px;
   }
-  button {
+
+  button
+  {
     margin-top: 10px;
     width: 200px;
     height: 60px;
     font-size: $fz-h3;
 
+
   }
 
+  .menu li
+  {
+    padding-right: 50px;
+  }
 }
 
 
