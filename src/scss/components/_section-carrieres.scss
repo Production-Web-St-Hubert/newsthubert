@@ -59,7 +59,6 @@
 .section-titre
 {
   text-align: center;
-
 }
 
 .cartes-carrieres
@@ -79,6 +78,36 @@
 .carte-texte
 {
   justify-content: center;
+}
+
+.img-carte
+{
+  background-size: cover;
+  margin-top: auto;
+}
+
+.image-emploi
+{
+
+
+}
+
+.image-candidature
+{
+
+
+}
+
+.image-abonnement
+{
+
+
+}
+
+.image-faq
+{
+
+
 }
 
 // DISTINGUE ------------------------------------
@@ -151,4 +180,10 @@
 .section-valeur-histoire
 {
 
+}
+
+.ul-valeurs
+{
+  list-style: none;
+  line-height: 2.5rem;
 }
