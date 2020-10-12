@@ -64,12 +64,16 @@
 
 .cartes-carrieres
 {
+  font-family: $ff-cartep;
+  font-size: 1rem;
 
+  padding: 50px;
 }
 
 .carte-emploi
 {
   display: flex;
+  justify-content: center;
 }
 
 .carte-texte
