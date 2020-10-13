@@ -66,14 +66,18 @@
   font-family: $ff-cartep;
   font-size: 1rem;
 
-  padding: 50px;
+  //padding: 50px;
+
+  height: 100%;
 }
 
 .carte-emploi
 {
   display: flex;
   justify-content: center;
+  margin: 0 30px;
 }
+
 
 .carte-texte
 {
@@ -108,6 +112,19 @@
 {
 
 
+}
+
+.cartes-valeurs-histoire
+{
+  padding: 50px;
+
+  font-family: $ff-cartep;
+  font-size: 1rem;
+}
+
+.texte-carte
+{
+  text-align: center;
 }
 
 // DISTINGUE ------------------------------------
