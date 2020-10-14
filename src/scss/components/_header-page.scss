@@ -1,6 +1,6 @@
 nav {
 
-  background-image: linear-gradient(to top, rgba(26,26,26,0), rgba(26,26,26,1),rgba(26,26,26,1),rgba(26,26,26,1));
+  background-image: linear-gradient(to top, rgba(26, 26, 26, 0), rgba(26, 26, 26, 1), rgba(26, 26, 26, 1), rgba(26, 26, 26, 1));
 
   width: 100%;
   height: 150px;
@@ -14,13 +14,11 @@ nav {
 
   z-index: 999;
 
-  a:hover{
-    text-decoration:none;
+  a:hover {
+    text-decoration: none;
   }
 
-
-  .logo
-  {
+  .logo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -31,14 +29,12 @@ nav {
     padding-right: 60px;
   }
 
-  .show-menu
-  {
+  .show-menu {
     display: none;
   }
 
-  .menu
-  {
-    margin:0 auto;
+  .menu {
+    margin: 0 auto;
     padding-top: 15px;
 
     display: flex;
@@ -46,58 +42,83 @@ nav {
     justify-content: space-between;
   }
 
-  ul
-  {
-    margin-top: 40px;
+  .invisible {
+    margin-top: 20px;
     padding: 0;
-
 
     display: flex;
     list-style: none;
     justify-content: space-between;
 
-   nav li
-   {
+    nav li {
       justify-content: space-between;
-   }
+    }
   }
 
-  div.menu-last
-  {
+  div.menu-last {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
-    align-content: center;
+    align-items: center;
+    //align-content: center;
   }
 
-  .menu-last a
-  {
-    padding: 0 20px;
+  .menu-last a {
+
+    padding: 20px;
   }
 
-  img
-  {
+  img {
     height: 194px;
     width: 363px;
   }
 
-  button
-  {
+  button {
     margin-top: 10px;
     width: 200px;
     height: 60px;
     font-size: $fz-h3;
 
-
   }
 
-  .menu li
-  {
+  .menu li {
     padding-right: 50px;
   }
-
-  
 }
+
+@media screen and (max-width: $vw-large) {
+
+  h4 {
+    font-size: 18px;
+  }
+}
+
+.invisible {
+  display: block;
+
+
+
+  .show-menu {
+    display: flex;
+  }
+
+}
+
+@media screen and (max-width: $vw-small) {
+  .nav {
+
+    font-size: rem(10px);
+
+    .invisible{
+      display: none;
+    }
+  }
+
+  h4 {
+    font-size: rem(8px);
+  }
+}
+
+
 
 

@@ -2,7 +2,7 @@
   max-width: 100%;
 
   background-image: url("/images/desktop/hero.png");
-  background-size:cover;
+  background-size: cover;
 
   .info-hero {
 
@@ -10,8 +10,8 @@
 
     //border:$jaune solid 5px;
 
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     //text-align:center;
@@ -38,8 +38,29 @@
     }
   }
 
-
 }
+
+@media screen and (max-width: $vw-large) {
+  div.info-hero h1 {
+
+    font-size: $fz-h1tablette;
+  }
+  div.info-hero h2 {
+    font-size: $fz-h2tablette;
+  }
+}
+
+@media screen and (max-width: $vw-small) {
+
+
+    div.info-hero h1 {
+      font-size: $fz-h1mobile;
+    }
+    div.info-hero h2 {
+      font-size: $fz-h2mobile;
+    }
+  }
+
 
 
 
