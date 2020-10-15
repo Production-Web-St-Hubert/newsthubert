@@ -1,0 +1,126 @@
+
+
+.unecarte-produits {
+
+  height: 520px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+  border-top: $jaune solid 25px;
+  border-bottom: $jaune solid 25px;
+  width: 30%;
+
+  align-items: center;
+
+  background-color: $noir;
+
+  a {
+    text-decoration: none;
+  }
+
+  .carte-titre {
+    position: relative;
+    bottom: 130px;
+
+    h2 {
+      margin: 0;
+      padding-top: 30px;
+      height: 126px;
+      text-align: center;
+      color: $white;
+      background-color: rgba(26, 26, 26, .6);
+
+    }
+
+  }
+
+}
+
+.unecarte-produits:hover {
+  box-shadow: 5px 5px 5px 0 rgba(26, 26, 26, 0.75);
+
+  img {
+    filter: saturate(0);
+
+  }
+
+  h2 {
+    color: $noir;
+    background-color: rgba(254, 203, 63, 1);
+  }
+}
+
+
+
+
+@media screen and (max-width: $vw-large) {
+
+
+  .lescartes{
+
+    width: 750px;
+
+  }
+
+
+  .unecarte-produits{
+
+    height: 200px;
+
+
+    img.image {
+
+      height: 115px;
+      width: 115px;
+      margin-left: 16px;
+      margin-top: 17px;
+    }
+
+    .unecarte-produits div.carte-titre h2 {
+
+      height: 115px;
+      width: 115px;
+      margin-left: 60px;
+      margin-top: 17px;
+
+    }
+  }
+}
+
+
+@media screen and (max-width: $vw-small) {
+
+
+  .lescartes{
+
+    width: 350px;
+
+  }
+
+
+  .unecarte-produits{
+
+    height: 140px;
+
+  }
+
+
+  div img.image{
+
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 17px;
+
+  }
+
+
+  .unecarte-produits div.carte-titre h2{
+
+    font-size: 20px;
+    padding-top: 110px;
+
+  }
+
+
+}
