@@ -78,3 +78,26 @@
 
 
 
+
+@media screen and (max-width: $vw-large) {
+
+  .lescartes {
+    max-width: 1280px;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .unecarte {
+    margin: 20px 10px;
+    width: 40%;
+  }
+
+@media screen and (max-width: $vw-small)
+{
+  .unecarte
+  {
+    margin: 30px 10px;
+    width: 100%;
+  }
+}
