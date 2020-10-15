@@ -1,4 +1,9 @@
 
+@media screen and (max-width: $vw-large)
+{
+  footer
+  {
+    line-height: 2.5rem;
 
 
 
@@ -94,49 +99,13 @@ a:hover{
 
 
 
-
-
-@media screen and (max-width: $vw-large)
-{
-  footer
-  {
-    line-height: 2.5rem;
-
-    .reseaux-sociaux
-    {
-      padding: 5px;
-    }
-
-    .reseaux-sociaux-icones
-    {
-      padding: 5px;
-    }
-
-    .reseaux-sociaux img
-    {
-      width: 20%;
-      height: 20%;
-    }
-
-    img
-    {
-      margin: 0;
-    }
-
-    .appstore
-    {
-      margin-top: 60px;
-    }
-  }
-}
-
-
-
 @media screen and (max-width: $vw-large){
 
 }
 
 @media screen and (max-width: $vw-small){
 
+}
+}
 }
 
