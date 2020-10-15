@@ -1,7 +1,9 @@
+
+
 .lescartes {
   width: $max-width;
   margin: 50px auto;
-//height:100%;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -12,8 +14,7 @@
   margin-top: 25px;
   margin-bottom: 25px;
 
-  //height: 950px;
-//height:100%;
+
   border-top: $jaune solid 25px;
   border-bottom: $jaune solid 25px;
   width: 30%;
@@ -43,8 +44,7 @@
   }
 
   .carte-texte {
-    //height: 100%;
-    //align-content: flex-start;
+   
     position: relative;
     bottom: 130px;
     padding: 20px 30px;
@@ -108,7 +108,6 @@
 
 }
 
-
 .unecarte-produits:hover{
   box-shadow: 5px 5px 5px 0 rgba(26,26,26,0.75);
   img{
@@ -119,5 +118,32 @@
     color: $noir;
     background-color: rgba(254, 203, 63, 1);
   }
+}
 
+
+
+@media screen and (max-width: $vw-large)
+{
+  .lescartes
+  {
+    max-width: 1280px;
+
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .unecarte
+  {
+    margin: 20px 10px;
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: $vw-small)
+{
+  .unecarte
+  {
+    margin: 30px 10px;
+    width: 100%;
+  }
 }
