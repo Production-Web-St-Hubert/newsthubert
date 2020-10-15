@@ -1,15 +1,17 @@
 
-@media screen and (max-width: $vw-large)
-{
-  footer
-  {
-    line-height: 2.5rem;
+
+
+
 
 
 
 footer {
   background-color: $noir;
-a:hover{
+
+  line-height: 2.5rem;
+
+  a:hover
+{
   text-decoration:none;
 }
 }
@@ -95,9 +97,13 @@ a:hover{
         font-weight: $fw-regular;
       }
     }
+
+
+
+
+  @media screen and (max-width: $vw-large)
+  {
   }
-
-
 
 @media screen and (max-width: $vw-large){
 
@@ -107,5 +113,5 @@ a:hover{
 
 }
 }
-}
+
 

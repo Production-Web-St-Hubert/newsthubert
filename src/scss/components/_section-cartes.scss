@@ -70,34 +70,41 @@
     color: $noir;
     background-color: rgba(254, 203, 63, 1);
   }
-
 }
-
-
-
-
-
 
 
 @media screen and (max-width: $vw-large) {
 
-  .lescartes {
+  .lescartes
+  {
     max-width: 1280px;
 
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
-  .unecarte {
+  .unecarte
+  {
     margin: 20px 10px;
     width: 40%;
   }
+}
+
+
 
 @media screen and (max-width: $vw-small)
 {
+  .lescartes
+  {
+    max-width: 375px;
+  }
+
   .unecarte
   {
     margin: 30px 10px;
     width: 100%;
   }
 }
+
+
+
