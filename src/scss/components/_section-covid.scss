@@ -1,6 +1,6 @@
 .covid {
   //max-width: 100%;
-  width:100%;
+  width: 100%;
   background-image: url("/images/desktop/covidpouletroti.png");
   background-size: cover;
   height: 1405px;
@@ -11,7 +11,7 @@
 
   .covid-wrap {
     width: $max-width;
-
+    //margin:0 80%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,8 @@
   }
 
   .info-covid {
-    width: $max-width;
+    //width: $max-width;
+    margin: 0 auto;
     padding: 20px;
 
     border: $jaune solid 5px;
@@ -37,15 +38,16 @@
     button {
       height: 90px;
       font-size: $fz-h2;
-      //font-weight: $fw-bold;
-      //padding:20px;
+      font-weight: $fw-bold;
+      padding: 20px;
     }
 
   }
 
   .cartes-covid {
+    //width: $max-width;
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
 
     justify-content: space-between;
     //align-content: space-between;
@@ -64,6 +66,73 @@
       color: $white;
       border: $jaune solid 5px;
       font-size: $fz-h2;
+    }
+
+  }
+
+}
+
+@media screen and (max-width: $vw-large) {
+  .covid {
+    .covid-wrap {
+      width: 100%;
+      .info-covid {
+
+        width: 80%;
+        margin: 0 auto;
+        font-size: rem(18px);
+        //flex-direction: column;
+        div button {
+          font-size: rem(36);
+          height: 85px;
+        }
+      }
+      .cartes-covid {
+        flex-direction: column;
+        .unecarte-covid {
+          button {
+            font-size: rem(36);
+            height: 85px;
+          }
+        }
+      }
+    }
+
+  }
+  .cartes-covid {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+}
+
+@media screen and (max-width: $vw-small) {
+  .covid {
+    .covid-wrap {
+      width: 100%;
+      .info-covid {
+        width: 90%;
+        margin: 0 auto;
+        font-size: rem(10px);
+        //flex-direction: column;
+
+        button {
+          font-size: rem(14);
+          height: 38px;
+        }
+      }
+      .cartes-covid {
+        flex-direction: column;
+        .unecarte-covid {
+          margin: 25px 0;
+          button {
+            font-size: rem(14);
+            height: 38px;
+          }
+        }
+      }
+
     }
 
   }
