@@ -58,8 +58,7 @@
 
   .infolettre-wrap {
     margin-top: 50px;
-    width: 100%;
-
+    width:100%;
   }
 
 }
@@ -67,37 +66,21 @@
 @media screen and (max-width: $vw-small) {
   .infolettre-wrap {
     margin-top: 25px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    .infolettre {
-
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      .infolettre-logo {
-        img {
-          display: none;
-        }
-
-      }
-
-      .infolettre-texte{
-        .infolettre-info{
-          h2 {
-            font-size: $fz-h2mobile;
-          }
-
-          p {
-            font-size: $fz-pmobileinfo;
-          }
-        }
-      }
-
-
-    }
-
+    width:100%;
+   .infolettre{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+h2{
+  font-size: $fz-h2mobileinfo;
+}
+     p{
+       font-size: $fz-pmobilelettre;
+     }
+     img{
+       display:none;
+     }
+   }
   }
 
 }
