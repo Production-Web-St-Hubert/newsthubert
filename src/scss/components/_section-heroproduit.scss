@@ -51,7 +51,7 @@ hr{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: $vw-large) {
 
 
  .texte-produit{
@@ -63,6 +63,13 @@ hr{
   div.info-hero h1{
 
     font-size: $fz-h2;
+  }
+
+
+  hr{
+
+    width: 200px;
+
   }
 
 

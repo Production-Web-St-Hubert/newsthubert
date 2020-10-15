@@ -1,37 +1,4 @@
 
-@media screen and (max-width: 1280px)
-{
-  footer
-  {
-    line-height: 2.5rem;
-
-    .reseaux-sociaux
-    {
-    padding: 5px;
-    }
-
-    .reseaux-sociaux-icones
-    {
-      padding: 5px;
-    }
-
-    .reseaux-sociaux img
-    {
-      width: 20%;
-      height: 20%;
-    }
-
-    img
-    {
-      margin: 0;
-    }
-
-    .appstore
-    {
-      margin-top: 60px;
-    }
-  }
-}
 
 
 
@@ -121,9 +88,7 @@ a:hover{
         margin:25px;
         opacity: 0.5;
         font-weight: $fw-regular;
-
       }
-
     }
   }
 
@@ -131,6 +96,39 @@ a:hover{
 
 
 
+@media screen and (max-width: $vw-large)
+{
+  footer
+  {
+    line-height: 2.5rem;
+
+    .reseaux-sociaux
+    {
+      padding: 5px;
+    }
+
+    .reseaux-sociaux-icones
+    {
+      padding: 5px;
+    }
+
+    .reseaux-sociaux img
+    {
+      width: 20%;
+      height: 20%;
+    }
+
+    img
+    {
+      margin: 0;
+    }
+
+    .appstore
+    {
+      margin-top: 60px;
+    }
+  }
+}
 
 
 
