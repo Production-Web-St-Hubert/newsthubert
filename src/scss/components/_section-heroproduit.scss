@@ -62,7 +62,7 @@ hr{
 
   div.info-hero h1{
 
-    font-size: $fz-h2;
+    font-size: $fz-h1tablette;
   }
 
 
@@ -76,6 +76,32 @@ hr{
 }
 
 
+
+
+
+@media screen and (max-width: $vw-small) {
+
+
+  .texte-produit{
+
+    font-size: $fz-h6;
+  }
+
+
+  div.info-hero h1{
+
+    font-size: $fz-h1mobile;
+  }
+
+
+  hr{
+
+    width: 80px;
+
+  }
+
+
+}
 
 
 

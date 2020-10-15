@@ -66,31 +66,21 @@
 @media screen and (max-width: $vw-small) {
   .infolettre-wrap {
     margin-top: 25px;
-    width: 100%;
-
-    .infolettre {
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
-
-
-
-      h2 {
-        font-size: $fz-h2mobile;
-      }
-      p {
-        font-size: $fz-pmobilelettre;
-      }
-      .infolettre-logo{
-        img{
-          display:none;
-        }
-      }
-      .infolettre-texte{
-        height:125px;
-      }
-    }
+    width:100%;
+   .infolettre{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+h2{
+  font-size: $fz-pmobileinfo;
+}
+     p{
+       font-size: $fz-pmobilelettre;
+     }
+     img{
+       display:none;
+     }
+   }
   }
 
 }
