@@ -1,0 +1,12 @@
+.v-desktop {
+  display: block;
+}
+.v-desktop-flex {
+  display: flex;
+}
+
+@media screen and (max-width: $vw-large) {
+  .v-desktop{
+    display: none!important;
+  }
+}

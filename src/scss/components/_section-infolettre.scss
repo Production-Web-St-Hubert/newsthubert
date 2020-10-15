@@ -1,8 +1,12 @@
 .infolettre-wrap {
-  width: $med-width;
+  width:$med-width;
+
+
 }
 
 .infolettre {
+
+  width: 100%;
   margin: 75px auto;
   padding: 50px;
   background-color: $jaune;
@@ -10,8 +14,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  //align-items: center;
-  //align-content: center;
 
   .infolettre-logo {
     img {
@@ -33,7 +35,7 @@
     p {
       font-size: $fz-p;
       color: $gris;
-      margin:0;
+      margin: 0;
     }
 
     .infolettre-info {
@@ -44,8 +46,6 @@
 
       margin: 0;
 
-
-
       button {
         height: 50px;
       }
@@ -53,4 +53,39 @@
     }
 
   }
+}
+
+@media screen and (max-width: $vw-large) {
+  .infolettre-wrap {
+    margin-top: 50px;
+    width:100%;
+
+
+  }
+
+}
+
+@media screen and (max-width: $vw-small) {
+  .infolettre-wrap {
+    margin-top: 25px;
+    width:100%;
+   .infolettre{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+h2{
+  font-size: $fz-h2mobileinfo;
+}
+     p{
+       font-size: $fz-pmobilelettre;
+     }
+     img{
+       display:none;
+     }
+   }
+
+
+
+  }
+
 }
